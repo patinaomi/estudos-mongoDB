@@ -1,11 +1,24 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+
 :root {
-    --cor-de-fundo: #E5D9C7;
-    --cor-primaria: #3E9F94;
+    --cor-de-fundo: #F5E9D5;
+    --cor-turquesa: #3E9F94;
+    --cor-branco: #ffffff;
+    --cor-coral-claro: #fff1f1;
     --cor-secundaria: #FCC9B6;
+    --cor-texto: #332F2B;
+    --cor-degrade: linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+
+    --fonte-principal: "Poppins";
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: #ffffff;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 h1 {
