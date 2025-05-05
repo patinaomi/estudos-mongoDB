@@ -1,6 +1,8 @@
 // Selecionar (ou criar) um banco
 use nomeDoBanco
 
+// Tem que armazenar dados neste banco, para ele ser definitivamente criado
+
 // Criar coleção (não é obrigatório — pode ser criada ao inserir documento)
 db.createCollection("nomeDaColecao")
 
@@ -39,3 +41,9 @@ show collections
 
 // Listar todos os bancos
 show dbs
+
+// Deletar database (tem que estar conectados ao db que será excluído)
+db.dropDatabase()
+
+// Excluir uma coleção
+db.nomeDaColecao.drop()
